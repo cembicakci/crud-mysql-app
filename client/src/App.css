@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+
+}
+
+button{
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input{
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 400px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.card .card-name{
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin: 10px 0;
+}
+
+.card a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.inventory{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
