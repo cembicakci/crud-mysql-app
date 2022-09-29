@@ -9,7 +9,7 @@
 * Axios
 * MySQL
 
-## Features
+## Features
 * You can add, delete and update warehouse
 * You can add, delete and update inventory list on each warehouse
 
