@@ -18,4 +18,8 @@
 cd client
 npm install
 npm start
+
+cd server
+npm install express
+npm start
 ```
